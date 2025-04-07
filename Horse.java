@@ -16,7 +16,7 @@ public class Horse implements Animal{
     }
     @Override
     public String getType(){
-        return "Color";
+        return "Horse";
     }
 
     @Override

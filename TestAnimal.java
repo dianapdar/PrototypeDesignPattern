@@ -9,7 +9,7 @@ public class TestAnimal{
         sheep.makeSound();
 
         System.out.println("Cow type: " + cow.getType());
-        System.out.println("Color type: " + horse.getType());
+        System.out.println("Horse type: " + horse.getType());
         System.out.println("Sheep type: " + sheep.getType());
 
         Animal clonedCow = cow.clone();
@@ -17,7 +17,7 @@ public class TestAnimal{
         Animal clonedSheep = sheep.clone();
 
         System.out.println("Cloned Cow type: " + clonedCow.getType());
-        System.out.println("Cloned Color type: " + clonedColor.getType());
+        System.out.println("Cloned Horse type: " + clonedColor.getType());
         System.out.println("Cloned Sheep type: " + clonedSheep.getType());
 }
 }
