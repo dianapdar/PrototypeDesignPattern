@@ -13,11 +13,12 @@ public class TestAnimal{
         System.out.println("Sheep type: " + sheep.getType());
 
         Animal clonedCow = cow.clone();
-        Animal clonedColor = horse.clone();
+        Animal clonedHorse = horse.clone();
         Animal clonedSheep = sheep.clone();
 
         System.out.println("Cloned Cow type: " + clonedCow.getType());
-        System.out.println("Cloned Horse type: " + clonedColor.getType());
+        System.out.println("Cloned Horse type: " + clonedHorse.getType());
         System.out.println("Cloned Sheep type: " + clonedSheep.getType());
+
 }
 }
