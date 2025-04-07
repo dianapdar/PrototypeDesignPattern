@@ -14,4 +14,15 @@ public class Sheep implements Animal{
     public Animal clone(){
         return new Sheep (this.legs, this.sound, this.food, this.name);
     }
+    
+    @Override
+    public String getType(){
+        return "Sheep";
+    }
+
+    @Override
+    public void makeSound(){
+        System.out.println("Sheep sound: " + this.sound);
+    }
+
 }
