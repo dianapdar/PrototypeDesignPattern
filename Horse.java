@@ -21,6 +21,6 @@ public class Horse implements Animal{
 
     @Override
     public void makeSound(){
-        System.out.println("Color sound: " + this.sound);
+        System.out.println("Horse sound: " + this.sound);
     }
 }
